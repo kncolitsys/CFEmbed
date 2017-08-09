@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.idxtools.mango.plugins.idxEmbedly" name="idxEmbedly" version="1.0" provider-name="IDXtools" 
+class="idxEmbedly.Handler">
+	
+	<description>
+		<![CDATA[
+		Adds Embed.ly jscript to the header of each page, post and other pages.
+		]]>
+	</description>
+	
+	<requiresVersion match="greaterOrEqual">1.5</requiresVersion>
+	
+	<listens>
+		<event name="beforeHtmlHeadEnd" type="synch" priority="100" />
+	</listens>
+	
+</plugin>
